@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<views>
+  <view name="Capping assay  CV &gt; 10%" rowsource="pwiz.Skyline.Model.Databinding.Entities.Peptide" sublist="Results!*" uimode="small_molecules">
+    <column name="" />
+    <column name="Protein" />
+    <column name="Results!*.Value.ResultFile.Replicate" />
+    <column name="Results!*.Value.ResultFile.Replicate.&quot;annotation_SampleGroup&quot;" />
+    <column name="Results!*.Value.ResultFile.Replicate.&quot;annotation_SpikeFactor&quot;" />
+    <column name="Results!*.Value.PeptidePeakFoundRatio" />
+    <column name="Results!*.Value.PeptideRetentionTime" />
+    <column name="Results!*.Value.RatioToStandard" />
+    <column name="Results!*.Value.Quantification.CalculatedConcentration" />
+    <column name="Results!*.Value.Quantification.Accuracy" />
+    <column name="Results!*.Value.ExcludeFromCalibration" />
+    <filter column="Results!*.Value" opname="isnotnullorblank" />
+    <filter column="Results!*.Value.ExcludeFromCalibration" opname="equals" operand="False" />
+  </view>
+  <view name="Capping assay &lt; 80 % Accuracy" rowsource="pwiz.Skyline.Model.Databinding.Entities.Peptide" sublist="Results!*" uimode="small_molecules">
+    <column name="" />
+    <column name="Protein" />
+    <column name="Results!*.Value.ResultFile.Replicate" />
+    <column name="Results!*.Value.ResultFile.Replicate.&quot;annotation_SampleGroup&quot;" />
+    <column name="Results!*.Value.PeptidePeakFoundRatio" />
+    <column name="Results!*.Value.PeptideRetentionTime" />
+    <column name="Results!*.Value.RatioToStandard" />
+    <column name="Results!*.Value.Quantification.CalculatedConcentration" />
+    <column name="Results!*.Value.Quantification.Accuracy" />
+    <column name="Results!*.Value.ExcludeFromCalibration" />
+    <filter column="Results!*.Value.Quantification.Accuracy" opname="&lt;" operand="0.8" />
+  </view>
+  <view name="Capping assay &gt; 120 % Accuracy" rowsource="pwiz.Skyline.Model.Databinding.Entities.Peptide" sublist="Results!*" uimode="small_molecules">
+    <column name="" />
+    <column name="Protein" />
+    <column name="Results!*.Value.ResultFile.Replicate" />
+    <column name="Results!*.Value.ResultFile.Replicate.&quot;annotation_SampleGroup&quot;" />
+    <column name="Results!*.Value.PeptidePeakFoundRatio" />
+    <column name="Results!*.Value.PeptideRetentionTime" />
+    <column name="Results!*.Value.RatioToStandard" />
+    <column name="Results!*.Value.Quantification.CalculatedConcentration" />
+    <column name="Results!*.Value.Quantification.Accuracy" />
+    <column name="Results!*.Value.ExcludeFromCalibration" />
+    <filter column="Results!*.Value.Quantification.Accuracy" opname="&gt;=" operand="1.2" />
+  </view>
+  <view name="Capping assay metadata" rowsource="pwiz.Skyline.Model.Databinding.Entities.Replicate" sublist="Files!*" uimode="small_molecules">
+    <column name="" />
+    <column name="SampleType" />
+    <column name="&quot;annotation_SampleGroup&quot;" />
+    <column name="AnalyteConcentration" />
+    <column name="&quot;annotation_SpikeFactor&quot;" />
+  </view>
+  <view name="Capping assay sample info" rowsource="pwiz.Skyline.Model.Databinding.Entities.Replicate" sublist="Files!*" uimode="small_molecules">
+    <column name="&quot;annotation_SampleName&quot;" />
+    <column name="&quot;annotation_RNA&quot;" />
+    <column name="&quot;annotation_AmountCap [mM]&quot;" />
+    <column name="&quot;annotation_CapType&quot;" />
+    <column name="&quot;annotation_RNALength [nt]&quot;" />
+    <column name="&quot;annotation_AmountRNA [ug]&quot;" />
+  </view>
+  <view name="Capping assay summary" rowsource="pwiz.Skyline.Model.Databinding.Entities.Transition" sublist="Results!*" uimode="small_molecules">
+    <column name="Precursor.Peptide" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.Replicate" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.Replicate.&quot;annotation_SampleGroup&quot;" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.Replicate.SampleType" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.Replicate.AnalyteConcentration" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.Replicate.&quot;annotation_SpikeFactor&quot;" />
+    <column name="Results!*.Value.UserSetPeak" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ResultFile.AcquiredTime" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.PeptideRetentionTime" />
+    <column name="Precursor.Peptide.CalibrationCurve.Slope" />
+    <column name="Precursor.Peptide.CalibrationCurve.Intercept" />
+    <column name="Precursor.Peptide.CalibrationCurve.RSquared" />
+    <column name="Precursor.Peptide.NormalizationMethod" />
+    <column name="Results!*.Value.PrecursorResult.TotalArea" total="PivotValue" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.Quantification.NormalizedArea" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.RatioToStandard" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.Quantification.CalculatedConcentration" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.Quantification.Accuracy" />
+    <column name="Results!*.Value.PrecursorResult.PeptideResult.ExcludeFromCalibration" />
+    <column name="Precursor.IsotopeLabelType" hidden="true" total="PivotKey" />
+    <column name="Precursor.Charge" hidden="true" />
+    <filter column="Results!*.Value.PrecursorResult.PeptideResult" opname="isnotnullorblank" />
+  </view>
+  <view name="Normalization Method" rowsource="pwiz.Skyline.Model.Databinding.Entities.Peptide" sublist="Results!*" uimode="small_molecules">
+    <column name="" />
+    <column name="Results!*.Value.ResultFile.Replicate" />
+    <column name="NormalizationMethod" />
+    <filter column="Results!*.Value" opname="isnotnullorblank" />
+  </view>
+  <layouts viewName="Capping assay  CV &gt; 10%" defaultLayout="CV&gt;10%">
+    <layout name="CV&gt;10%">
+      <columnFormat column="SampleGroup" width="275" />
+      <rowFilter>
+        <columnFilter column="CV CalculatedConcentration" opname="&gt;" operand="0.1" />
+      </rowFilter>
+      <pivot>
+        <rowHeader sourceColumn="Molecule" />
+        <rowHeader sourceColumn="SampleGroup" />
+        <value sourceColumn="CalculatedConcentration" op="Cv" />
+      </pivot>
+    </layout>
+  </layouts>
+</views>

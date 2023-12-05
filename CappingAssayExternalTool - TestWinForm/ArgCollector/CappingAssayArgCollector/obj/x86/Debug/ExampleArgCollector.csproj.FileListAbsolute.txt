@@ -1,0 +1,29 @@
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.dll
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.AssemblyReference.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.ExampleToolUI.resources
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.Properties.Resources.resources
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.GenerateResource.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.CoreCompileInputs.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.dll
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.dll
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.AssemblyReference.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.ExampleToolUI.resources
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.Properties.Resources.resources
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.GenerateResource.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.CoreCompileInputs.cache
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.dll
+C:\Users\chris\Downloads\Tools\Tools\ExampleArgCollector_test\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.dll
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.ExampleToolUI.resources
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.Properties.Resources.resources
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.GenerateResource.cache
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.dll
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.pdb
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.ValidationUI.resources
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\bin\Debug\ExampleArgCollector.dll.config
+C:\Users\chris\Documents\Skyline\External Tools\AssayValidationExternalTool\ArgCollector\TestArgCollector\obj\x86\Debug\ExampleArgCollector.csprojAssemblyReference.cache

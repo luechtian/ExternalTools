@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<views>
+  <view name="Capping assay Outlier &lt; 80 % Accuracy" rowsource="pwiz.Skyline.Model.Databinding.Entities.PeptideResult" sublist="" uimode="small_molecules">
+    <column name="ResultFile.Replicate" />
+    <column name="PeptideRetentionTime" />
+    <column name="RatioToStandard" />
+    <column name="ReplicateCalibrationCurve.RSquared" />
+    <column name="Quantification.NormalizedArea" />
+    <column name="Quantification.CalculatedConcentration" />
+    <column name="Quantification.Accuracy" />
+    <column name="ExcludeFromCalibration" />
+    <filter column="Quantification.Accuracy" opname="&lt;" operand="0.8" />
+    <filter column="ExcludeFromCalibration" opname="equals" operand="False" />
+  </view>
+  <view name="Capping assay Outlier &gt; 120 % Accuracy" rowsource="pwiz.Skyline.Model.Databinding.Entities.PeptideResult" sublist="" uimode="small_molecules">
+    <column name="ResultFile.Replicate" />
+    <column name="PeptideRetentionTime" />
+    <column name="RatioToStandard" />
+    <column name="ReplicateCalibrationCurve.RSquared" />
+    <column name="Quantification.NormalizedArea" />
+    <column name="Quantification.CalculatedConcentration" />
+    <column name="Quantification.Accuracy" />
+    <column name="ExcludeFromCalibration" />
+    <filter column="Quantification.Accuracy" opname="&gt;=" operand="1.2" />
+    <filter column="ExcludeFromCalibration" opname="equals" operand="False" />
+  </view>
+  <view name="Capping assay results" rowsource="pwiz.Skyline.Model.Databinding.Entities.PeptideResult" sublist="" uimode="small_molecules">
+    <column name="ResultFile.Replicate" />
+    <column name="PeptideRetentionTime" />
+    <column name="RatioToStandard" />
+    <column name="ReplicateCalibrationCurve.RSquared" />
+    <column name="Quantification.NormalizedArea" />
+    <column name="Quantification.CalculatedConcentration" />
+    <column name="Quantification.Accuracy" />
+    <column name="ExcludeFromCalibration" />
+  </view>
+</views>
